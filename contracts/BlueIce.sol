@@ -49,7 +49,7 @@ contract BlueIce is ERC20Burnable, IGovernanceToken, Ownable {
     {
         lockedToken = _lockedToken;
         minLockedAmount = _minLockedAmount;
-        earlyWithdrawPenaltyRate = 3000; // 30%
+        earlyWithdrawPenaltyRate = 30000; // 30%
         _unlocked = 1;
     }
 
