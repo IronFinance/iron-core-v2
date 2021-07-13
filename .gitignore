@@ -1,0 +1,14 @@
+node_modules
+
+#Hardhat files
+cache
+artifacts
+.env
+.idea/
+.idea/*
+.idea
+
+deployments/localhost
+bin
+dist
+dist/*
